@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.title{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 3px 4px red;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    /*x=5, 4=y, spread=20*/
+    box-shadow: 5px 4px 20px gray;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+.card{
+    width: 150px;
+    height: 150px;
+    background: violet;
+    margin: 20px auto;
+    
+    transition: .5s;
+    transform-origin: top left;
+}
+.card:hover{
+    transform: rotate(45deg);
+    transform: rotateX(180deg);
+    transform: rotateY(180deg);
+
+    transform: translateY(50px);
+    transform: translateX(50px);
+
+    transform: scaleX(2);
+    transform: scaleY(1.5);
+    transform: scale(5);
+
+    transform: skew(100deg);
+
+    transform: rotate(45deg);
+
+    transform: rotate(45deg) translateY(-80px) scale(1.5);
+}
+.box2{
+    width: 200px;
+    height: 100px;
+    border: 2px solid red;
+    margin: 20px auto;
+
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+}
+.photo{
+    width: 300px;
+    height: 300px;
+    margin: 20px auto;
+    border: 3px solid blue;
+    overflow: hidden;
+}
+
+.photo img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.photo:hover img{
+    transform: scale(1.2) rotate(12deg);
+}
+
+.card2{
+    width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px gray; 
+    transition: .5s;
+}
+.card2:hover{
+    transform: perspective(600px) rotateY(-20deg);
+}
+.card2 img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
